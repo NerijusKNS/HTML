@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+    font-size: 200%;
+   
+}
+h1 {
+    text-align: center;
+    border: 2px;
+}
+.Pavadinimas {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    height: 1000px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+.Duomenys {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}

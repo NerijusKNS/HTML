@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+    color: white;
+    border: 2px;
+    font-size: 200%;
+}
+
+h1 {
+    text-align: center;
+    border: 2px;
+}
+
+.Bendras {
+    display: flex;
+    background-color: black;
+    border: 2px solid white;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Pavadinimo {
+    border: 2px solid white;
+    justify-content: center;
+}
+
+.Pavadinimas {
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.Aprašymo {
+    border: 2px solid white;
+    justify-content: center;
+}
+
+.Aprašymas {
+    text-align: justify;
+    height: 1000px;
+    width: 100%;
+}
+
+.Vertinimas {
+    border: 2px solid white;
+    background-color: black;
+    width: 50%;
+    height: 100px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.Mėgstamas {
+    border: 2px solid white;
+    background-color: black;
+    width: 50%;
+    height: 100px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.Vertinimo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
