@@ -2,26 +2,65 @@ body {
     background-color: black;
     color: whitesmoke;
     font-size: 200%;
-   
 }
 h1 {
     text-align: center;
     border: 2px;
-    height: 1000px;
+    
 }
 .Pavadinimas {
     display: flex;
     flex-direction: column;
     background-color: black;
-    color: white;
-    border: 2px solid white;
-    height: 1000px;
+    color: white;    
     width: 100%;
     text-align: center;
     align-items: center;
 }
+.Name {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.Sur {
+    display: flex;
+    height: 100px;
+}
 .Duomenys {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
+    align-items: center;
+    font-size: 50px;
+}
+
+.Text {
+    display: flex;
+    width: 75%;
+    height: 100px;
+    align-items: center;
+
+}
+.Forma {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 85%;
+    font-size: 50px;
+}
+.Knopkes {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 100%; 
+}
+.Knopkė {
+    display: flex;
+    justify-items: center;
+    height: 100px;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
 }
